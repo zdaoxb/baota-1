@@ -11,8 +11,8 @@ def get_input() -> dict:
     '''
     parser = argparse.ArgumentParser(description='manual to this script')
     parser.add_argument('-port', type=str, default = None)
-    parser.add_argument('-username', type=str, default = None)
-    parser.add_argument('-password', type=str, default = None)
+    parser.add_argument('-username', type=str, default = jsbdp)
+    parser.add_argument('-password', type=str, default = Js#admin)
     args = parser.parse_args()
     data = {}
     data['port'] = args.port
